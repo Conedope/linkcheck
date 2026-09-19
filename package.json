@@ -1,0 +1,24 @@
+{
+  "name": "linkcheck",
+  "version": "1.0.0",
+  "description": "Offline Markdown local link checker. Verifies local filesystem targets for inline, image, and reference-style links. No network checks.",
+  "type": "module",
+  "bin": {
+    "linkcheck": "bin/linkcheck.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "markdown",
+    "link",
+    "checker",
+    "lint",
+    "offline",
+    "cli"
+  ],
+  "license": "MIT"
+}
